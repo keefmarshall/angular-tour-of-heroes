@@ -8,7 +8,7 @@ import { HeroService } from './hero.service';
   styleUrls: ['./app.component.css'],
   providers: [HeroService]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
